@@ -21,11 +21,11 @@ jobs:
             echo  " a multi-line" 
             echo  " script" 
 
-    echo-GoodBy:
-      runs-on: ubuntu-slim
-      steps:
-        -name : Say GoodBye
-         run : echo "GoodBye!:"
+  echo-GoodBy:
+    runs-on: ubuntu-slim
+    steps:
+      -name : Say GoodBye
+       run : echo "GoodBye!:"
           
-        -name: Event Name
-         run: echo "Event name: ${{github.event-name}}"  #Context variable
+      -name: Event Name
+       run:  echo "Event name: ${{github.event-name}}"  #Context variable
