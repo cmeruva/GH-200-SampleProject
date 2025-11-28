@@ -16,7 +16,7 @@ jobs:
         run : echo "Hello World"
 
       - name : Multi-line bash
-        run :
-            echo  "I am"
-            echo  "a multi-line"
-            echo  "script"
+        run : 
+            echo  "I am" 
+            echo  "a multi-line" 
+            echo  "script" 
