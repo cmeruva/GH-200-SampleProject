@@ -1,5 +1,5 @@
 # workflow name
-name : First workflow
+name : First Workflow
 
 # Event at which the workflow to be triggered
 on  :  
@@ -8,8 +8,8 @@ on  :
 jobs: 
 
   Hello-job:
-# runner
+  # runner
   runs-on: ubuntu-latest
   steps:
-    -name : Hello World
+    - name : Hello World
       run : echo "Hello World"
