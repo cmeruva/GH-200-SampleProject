@@ -28,6 +28,4 @@ jobs:
         run : echo "GoodBye!:"    
         
       - name : Event Name
-        run :  
-            #Context variable
-            echo  "Event name: ${{github.event-name}}"
+        run :  echo  "Event name  ${{github.event-name}}" #Context variable
