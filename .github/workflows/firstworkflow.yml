@@ -25,8 +25,9 @@ jobs:
     runs-on: ubuntu-slim
     steps:
       - name : Say GoodBye
-        run : echo "GoodBye!:"          
-      - name: Event Name
-          run:
-            echo "Event name: ${{github.event-name}}"  
-            #Context variable
+        run : echo "GoodBye!:"    
+        
+      - name : Event Name
+        run :  
+            echo  "Event name: " ${{github.event-name}} #Context variable
+            
