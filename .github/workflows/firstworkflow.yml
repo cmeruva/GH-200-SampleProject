@@ -17,6 +17,6 @@ jobs:
 
       - name : Multi-line bash
         run :
-            echo "I am"
-            echo "a multi-line"
-            echo "script"
+            echo  "I am"
+            echo  "a multi-line"
+            echo  "script"
