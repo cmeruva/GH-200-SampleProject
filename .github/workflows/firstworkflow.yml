@@ -29,7 +29,7 @@ jobs:
         
       - name : Event Name
         run : 
-            echo "Event name ${{github.event_name}} " 
+            echo "Event name is ' ${{github.event_name}} '" 
             #Context variable
   windows-echo:
     if: github.event_name == 'push'
