@@ -33,7 +33,7 @@ jobs:
             #Context variable
   windows-echo:
     if: github.event_name == 'push'
-    run-on : windows_latest
+    runs-on : windows_latest
     steps:
       - name: Show OS
         shell: bash
