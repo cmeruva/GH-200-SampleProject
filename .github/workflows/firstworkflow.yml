@@ -4,7 +4,7 @@ name : First Workflow
 # Event at which the workflow to be triggered
 on  :  
   push: 
-
+  workflow_dispatch:
 jobs: 
 
   Hello-job:
@@ -14,3 +14,9 @@ jobs:
     steps:
       - name : Hello World
         run : echo "Hello World"
+
+      - name : Multi-line bash
+        run :
+            echo "I am"
+            echo "a multi-line"
+            echo "script"
