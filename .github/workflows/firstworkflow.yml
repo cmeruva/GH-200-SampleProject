@@ -9,7 +9,7 @@ jobs:
 
   Hello-job:
   # runner
-  runs-on: ubuntu-latest
+  runs-on: 'ubuntu-latest'
   steps:
     - name : Hello World
       run : echo "Hello World"
