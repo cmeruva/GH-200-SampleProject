@@ -1,0 +1,15 @@
+# workflow name
+name : My first workflow
+
+# event at which the workflow to be triggered
+on  :  
+  push : 
+
+jobs : 
+  Hello-job :
+
+# runner
+  runs-on : ubuntu-latest
+  steps :
+    -name : Hello World
+      run : echo Hello World
